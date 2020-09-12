@@ -8,3 +8,10 @@ header#mainheader {
   margin: 2em auto;
   padding: 0 1em;
 }
+header#mainheader h1, header#mainheader p {
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: bold;
+  flex: 1;
+  margin: 0;
+}
