@@ -4,4 +4,7 @@ body {
 header#mainheader {
   display: flex;
   align-items: center;
+  max-width: 69em;
+  margin: 2em auto;
+  padding: 0 1em;
 }
