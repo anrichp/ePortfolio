@@ -1,7 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
-header {
+header#mainheader {
   display: flex;
   align-items: center;
 }
