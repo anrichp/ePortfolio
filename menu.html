@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+  </head>
+  <body>
+    <a href="https://anrichp.github.io/ePortfolio/" onclick="handleClick(event)"
+      >×</a
+    >
+    <script>
+      function handleClick(event) {
+        // Don't follow the link
+        event.preventDefault();
+        // Go back to last visited page
+        window.history.back();
+        // Bail out of the function
+        return false;
+      }
+    </script>
+  </body>
 </html>
