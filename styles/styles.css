@@ -1,5 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: calc(15px + 4 * (100vw / 1500));
+  line-height: 1.5;
 }
 header#mainheader {
   display: flex;
@@ -8,7 +10,8 @@ header#mainheader {
   margin: 2em auto;
   padding: 0 1em;
 }
-header#mainheader h1, header#mainheader p {
+header#mainheader h1,
+header#mainheader p {
   font-size: 1em;
   line-height: 1em;
   font-weight: bold;
