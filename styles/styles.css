@@ -17,4 +17,6 @@ header#mainheader h1, header#mainheader p {
 }
 #mainheader a {
   text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
