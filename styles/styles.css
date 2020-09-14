@@ -26,3 +26,7 @@ header#mainheader p {
 nav a {
   color: black;
 }
+nav {
+  display: grid;
+  place-items: center;
+}
