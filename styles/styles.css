@@ -48,3 +48,6 @@ section:hover {
   transform: scale(1.05);
   transition: transform 0.5s;
 }
+#inductionSection {
+  padding-top: 1em;
+}
