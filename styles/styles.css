@@ -23,3 +23,6 @@ header#mainheader p {
   font-weight: bold;
   color: black;
 }
+nav a {
+  color: black;
+}
