@@ -29,8 +29,9 @@ nav a {
   color: black;
 }
 nav {
-  display: grid;
-  place-items: center;
+  max-width: 33em;
+  margin: 0 auto;
+  padding: 0 1em;
 }
 main {
   display: grid;
