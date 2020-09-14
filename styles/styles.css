@@ -32,3 +32,7 @@ nav {
   display: grid;
   place-items: center;
 }
+main {
+  display: grid;
+  place-items: center;
+}
