@@ -2,6 +2,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: calc(15px + 4 * (100vw / 1500));
   line-height: 1.5;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 header#mainheader {
   display: flex;
