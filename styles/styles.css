@@ -35,4 +35,7 @@ nav {
 main {
   display: grid;
   place-items: center;
+  max-width: 33em;
+  margin: 0 auto;
+  padding: 0 1em;
 }
