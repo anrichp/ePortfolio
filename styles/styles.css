@@ -101,7 +101,7 @@ section {
 .breadcrumbs li:last-child:after {
   content: "";
 }
-li:last-child {
+.breadcrumbs li:last-child {
   font-weight: bold;
 }
 .breadcrumbs a {
