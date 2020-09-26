@@ -82,3 +82,29 @@ section {
   margin-top: 2em;
   padding-bottom: 2em;
 }
+/* Collapsed breadcrumbs */
+.collapsed li {
+  overflow: hidden;
+}
+.collapsed li:after {
+  background: rgb(227, 227, 227);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 227, 227, 0.4) 0%,
+    rgba(227, 227, 227, 1) 35%
+  );
+  padding-left: 1em;
+}
+.collapsed a {
+  max-width: 2em;
+  transition: max-width 300ms ease-in-out;
+}
+.collapsed a:hover,
+.collapsed a:focus,
+.collapsed li:hover a {
+  max-width: 1000px;
+}
+.collapsed li:hover:after {
+  padding-left: 0em;
+  background: transparent;
+}
