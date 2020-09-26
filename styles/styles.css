@@ -83,15 +83,21 @@ section {
   padding-bottom: 2em;
 }
 .breadcrumbs {
-  display: inline-flex;
   list-style-type: none;
 }
 .breadcrumbs li {
+  display: inline-block;
+  position: relative;
   padding-right: 2em;
 }
 .breadcrumbs li:after {
   content: ">";
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  width: 2em;
+  text-align: center;
 }
 .breadcrumbs li:last-child {
-  content: '';
+  content: "";
 }
