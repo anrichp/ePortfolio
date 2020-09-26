@@ -86,6 +86,6 @@ section {
   display: inline-flex;
   list-style-type: none;
 }
-li.breadcrumbs{
+.breadcrumbs li{
   padding-right: 2em;
 }
