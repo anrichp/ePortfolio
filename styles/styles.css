@@ -92,3 +92,6 @@ section {
 .breadcrumbs li:after {
   content: ">";
 }
+.breadcrumbs li:last-child {
+  content: '';
+}
