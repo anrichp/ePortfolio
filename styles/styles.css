@@ -83,5 +83,5 @@ section {
   padding-bottom: 2em;
 }
 .breadcrumbs {
-  display: inline-block;
+  display: inline-flex;
 }
