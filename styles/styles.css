@@ -98,6 +98,6 @@ section {
   width: 2em;
   text-align: center;
 }
-.breadcrumbs li:last-child {
+.breadcrumbs li:last-child:after {
   content: "";
 }
