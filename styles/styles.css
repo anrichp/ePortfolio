@@ -104,3 +104,7 @@ section {
 li:last-child {
   font-weight: bold;
 }
+.breadcrumbs a {
+  text-decoration: none;
+  color: black;
+}
