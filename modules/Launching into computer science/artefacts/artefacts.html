@@ -244,6 +244,112 @@
           >Feedback Document</a
         >
       </section>
+      <section id="artefacts">
+        <h2>Assignment 1: Part 2</h2>
+        <p>Python programming exercise:</p>
+        <ol>
+          <li>
+            Code a function called 'first_div_16' ACCEPT two positive integers,
+            n1 and n2, as inputs RETURN the first number in range(n1,n2) that is
+            divisible by 16. HOWEVER, if no number in the range is divisible by
+            16 RETURN 0.
+          </li>
+          <li>
+            Code a function called 'halve_to_2' ACCEPT one numeric input. If the
+            number <= 0, RETURN -1. If the number > 0, divide that integer
+            over-and-over by 2 until it becomes smaller than 2. RETURN that
+            smaller-than-2 number, e.g. input of 4 Will yield 1 (4->2->1), 5
+            yields 1.25 (5->2.5->1.25) etc.
+          </li>
+          <li>
+            Code a function called 'string_expansion'. ACCEPT a non-empty string
+            as input RETURN a string that contains every other character, 2n+2
+            times, where n is the original index of the letter. e.g. Input of
+            "Hello" should result in "HHlllllloooooooooo". Input of "ROBErt"
+            should result in "RRBBBBBBrrrrrrrrrr".
+          </li>
+          <li>
+            Code a function called 'item_count_from_index'. ACCEPT two inputs, a
+            list and an integer-index RETURN a count (number) of how many times
+            the item at that index appears in the list. HOWEVER, if the
+            integer-index is out of bounds for the list RETURN the empty string
+            ("") (e.g. list of 3 items, index of 5 is out of bounds).
+          </li>
+          <li>
+            Code a function called 'length_times_largest'. ACCEPT a list as
+            input RETURN the length of the list times the largest integer (not
+            float) in the list. HOWEVER, if the list does not contain an
+            integer, RETURN the empty string ("").
+          </li>
+        </ol>
+        <a
+          target="_blank"
+          href="https://docs.google.com/document/d/1aWEFKu_t0F37wQI87Duh0N_D6gp396fQIoYRRvXUnk0/edit?usp=sharing"
+          >Assignment 1: Part 2</a
+        >
+        <h3>Feedback</h3>
+        <h4>General Feedback</h4>
+        <table>
+          <thead>
+            <tr>
+              <th>Questions</th>
+              <th>Comment</th>
+              <th>Marks/20</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>
+                numList = [*range(n1, n2 + 1, 1)] requires commentary. Good use
+                of while and for constructs. Expected test results passing dummy
+                data.
+              </td>
+              <td>3.5</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>
+                Constructs and using while within if is a good idea. Commentary
+                can help improving the readability.
+              </td>
+              <td>3.5</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>
+                Good way of handling index position using string [i]. Logic is
+                rightly chosen.
+              </td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>
+                Logic using aList.count() is good. Adding more commentary would
+                have been helpful. More data to test can be used.
+              </td>
+              <td>3.5</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>
+                Constructs are created correctly and you used max and len
+                functions correctly. Need more testing.
+              </td>
+              <td>3.5</td>
+            </tr>
+            <tr>
+              <td>Overall Comments</td>
+              <td>
+                Good work. Adding more comments, commentary and testing your
+                code with more dummy data would have improved the work.
+              </td>
+              <td>18/20</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
   </body>
 </html>
