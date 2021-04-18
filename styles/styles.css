@@ -122,3 +122,9 @@ section {
 .breadcrumbs a:hover {
   text-decoration: underline;
 }
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
