@@ -163,6 +163,86 @@
           >Seminar 3 Preparation</a
         >
       </section>
+      <section id="artefacts">
+        <h2>Normalisation in practice</h2>
+
+        <p>
+          The aim of this activity is to allow you to gain some experience
+          normalising a set of tables.
+        </p>
+        <p>
+          Given the following set of tables, for our property lettings example,
+          you should develop a table structure that conforms to third normal
+          form (3NF). This will be discussed in next week’s seminar. Post your
+          structure to the discussion below and compare your own approach with
+          your peers. Use the guidelines provided for peer review on the
+          department website.
+        </p>
+        <p><i>Existing table structure</i></p>
+        <p><b>Properties</b></p>
+        <p>Street</p>
+        <p>Postcode</p>
+        <p>Type</p>
+        <p>Bedrooms</p>
+        <p>Owner name</p>
+        <p>Owner address</p>
+        <p>Owner telephone</p>
+        <p>Price</p>
+        <p>Client name</p>
+        <p>Client Date of Birth</p>
+        <p>Client telephone</p>
+        <p>Rental start date</p>
+        <p>Duration</p>
+        <p>Pets allowed</p>
+        <p>Deposit amount</p>
+        <p>Deposit paid</p>
+        <br />
+        <p><b>Maintenance</b></p>
+        <p>Street</p>
+        <p>Postcode</p>
+        <p>Owner name</p>
+        <p>Owner telephone</p>
+        <p>Tenant name</p>
+        <p>Tenant telephone</p>
+        <p>Issue</p>
+        <p>Contractor name</p>
+        <p>Contractor telephone</p>
+        <p>Estimated cost</p>
+        <p>Resolved</p>
+        <h3>Database Normalisation</h3>
+        <a
+          target="_blank"
+          href="https://docs.google.com/document/d/1Qa_j7Sm1L3UOGSkCvYKPchwtotCq-YdkgWe2AZubgqw/edit?usp=sharing"
+          >Dicussion forum submission</a
+        >
+        <h3>Feedback</h3>
+        <h4>Alice Villar</h4>
+        <p>Hi Anrich,</p>
+        <p>I think your diagram is great!! Thank you for sharing.</p>
+        <p>
+          My only observation is about having 2 tables for owners and clients.
+          Personally, I'd rather create a table for People than two tables for
+          owner and client. After all the goal is to organize data to prevent
+          redundancy.
+        </p>
+        <p>
+          Another observation I have is that when I first saw your diagram I
+          asked myself : "why didn't he create keys to his relationship tables
+          ("issueJunction" and "propertyJunction")?". Then, when I created my
+          own diagram I realized that for some reason it just doesn't show in
+          the automatic diagram. In my code, I defined a composite key to those
+          tables and created foreign keys. I think we did the same thing in the
+          code:
+        </p>
+        <code>
+          CREATE TABLE Property_Person ( Property_Id int not null, Person_Id int
+          not null, primary key (Property_Id,Person_Id), foreign key
+          (Property_Id) references Property (Property_Cod), foreign key
+          (Person_Id) references Person (Person_Cod) );
+        </code>
+        <p>Kind regards,</p>
+        <p>Alice</p>
+      </section>
     </main>
   </body>
 </html>
