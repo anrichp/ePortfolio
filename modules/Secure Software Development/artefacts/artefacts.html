@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/ePortfolio/favicon.ico"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ePortfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/ePortfolio/styles/styles.css" />
+  </head>
+  <body>
+    <header id="mainheader">
+      <p>
+        <a href="https://anrichp.github.io/ePortfolio/">ePortfolio</a>
+      </p>
+      <a href="https://anrichp.github.io/ePortfolio/menu.html">Menu</a>
+    </header>
+    <main>
+      <header>
+        <h1>Artefacts</h1>
+      </header>
+      <ul class="breadcrumbs">
+        <li><a href="/ePortfolio/">Home</a></li>
+        <li>
+          <a
+            href="/ePortfolio/modules/Object-oriented Information Systems/Object-oriented Information Systems.html"
+            >OOIS</a
+          >
+        </li>
+        <li>Current page</li>
+      </ul>
+      <section id="artefacts">
+        <h2>Collaborative Discussion 1: Information System Failure</h2>
+        <h3>Discussion Topic</h3>
+        <p>
+          Identify an instance of a failure with an information system, with a
+          focus on the reasons for the failure.
+        </p>
+        <h3>Submission</h3>
+        <a
+          target="_blank"
+          href="https://docs.google.com/document/d/1exkmdXTj92xq7TFMySgiiuwwmlWyWP5bi76JgxltXTA/edit?usp=sharing"
+          >Discussion forum submission</a
+        >
+      </section>
+      <section id="artefacts">
+        <h2>Practical Activity: Creating an object-oriented design</h2>
+        <h3>Creating an object-oriented design</h3>
+        <p>
+          This activity for this unit involves putting your object-oriented
+          design skills into practice.
+        </p>
+        <p>
+          Create an object model to represent a supermarket, for example, you
+          might like to consider the some but exclusively all of the following:
+        </p>
+        <ul>
+          <li>Staff</li>
+          <li>Products</li>
+          <li>Customers</li>
+          <li>Online orders</li>
+          <li>Loyalty schemes</li>
+        </ul>
+        <h3>Object-oriented Design</h3>
+        <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1bMy-ux-G6OpybpUeRU49eYz2e1yySg0s/view?usp=sharing"
+          >Object Model</a
+        >
+      </section>
+      <section id="artefacts">
+        <h2>Practical Activity: Class Diagrams</h2>
+
+        <p>
+          Develop the object model created in Unit 3 to be a UML class diagram
+          (using
+          <a href="https://online.visual-paradigm.com/" target="_blank"
+            >https://online.visual-paradigm.com/</a
+          >
+          or any similar drawing tool).
+        </p>
+        <p>
+          Once completed post your finished class diagram into the discussion
+          forum below and compare your own approach with your peers. Use the
+          guidelines provided for peer review&nbsp;on the Department’s&nbsp;<a
+            href="https://www.my-course.co.uk/course/view.php?id=4634"
+            target="_blank"
+            ><span>webpage</span></a
+          >.
+        </p>
+        <h3>Class Diagram</h3>
+        <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1m5dqNOnxvhE0ItyReHcmrayb8zD0qYYO/view?usp=sharing"
+          >Class Diagram</a
+        >
+        <h3>Feedback</h3>
+        <h4>Yohay Samson</h4>
+        <p>Very good stuff. Clear and accurate.</p>
+        <h4>Alice Villar</h4>
+        <p>Hi Anrich,</p>
+        <p>
+          Your syntax inside the classes (attributes and actions) looks perfect.
+          You always start with lowercase letters and then indicate the data
+          type. I could understand the content of every class.
+        </p>
+        <p>
+          However, the relationships between the classes look confusing.
+          Following Yohay, I used StarUML, which helped a lot because the arrow
+          comes with the correspondent name (composition, aggregation,
+          generalization, etc. ) I believe that once you use the UML arrows it
+          will look more clear.
+        </p>
+        <p>
+          I also think you missed the payment class, which I believe would help
+          a lot to organize the flow. For instance, in my diagram, I created a
+          relationship of composition between payment and loyalty schemes,
+          meaning that customers with loyalty will have discounts in payments.
+          When there is no composition, we have that awkward situation where we
+          receive a discount but it is not automatically applied to the payment.
+          It has happened to me. The design has to be clear so the programming
+          does not lead to situations like this.
+        </p>
+        <p>Kind regards,</p>
+        <p>Alice</p>
+      </section>
+      <section id="artefacts">
+        <h2>Seminar 3: Working with UML</h2>
+        <p>
+          In this week’s activity, you are going to get some hands-on practice
+          with UML, with a scenario, which is described below. You have been
+          asked to develop UML diagrams for a doctor’s surgery based on the
+          following scenario:
+        </p>
+        <p>
+          Before a patient can see a doctor, or nurse, they will be required to
+          make an appointment. The appointment will be made by the receptionist.
+          However, before making the appointment, the receptionist needs to ask
+          the patient which doctor they would like to see, and whether the
+          appointment is standard consultation or an emergency appointment. The
+          receptionist will use this information to check the appointment
+          schedule, find an available appointment and make the booking. During
+          the appointment itself, the doctor may issue the patient with a
+          prescription. It is possible for a patient to request a repeat
+          prescription be raised. Receptionists are able to cancel appointments
+          as well as create them. A doctor at the clinic may have a maximum of
+          500 patients registered to them at any one time.
+        </p>
+        <p>You should create:</p>
+        <ul>
+          <li>A class diagram for the system.</li>
+          <li>A sequence diagram for booking an appointment.</li>
+          <li>
+            An activity diagram for a receptionist booking an appointment.
+          </li>
+        </ul>
+        <h3>UML Diagrams</h3>
+        <a
+          target="_blank"
+          href="https://docs.google.com/document/d/1M_soNiOqGrtdxvV3aKaPkl_oXbGSBET_nX0wDOWQcMw/edit?usp=sharing"
+          >Seminar 3 Preparation</a
+        >
+      </section>
+      <section id="artefacts">
+        <h2>Normalisation in practice</h2>
+
+        <p>
+          The aim of this activity is to allow you to gain some experience
+          normalising a set of tables.
+        </p>
+        <p>
+          Given the following set of tables, for our property lettings example,
+          you should develop a table structure that conforms to third normal
+          form (3NF). This will be discussed in next week’s seminar. Post your
+          structure to the discussion below and compare your own approach with
+          your peers. Use the guidelines provided for peer review on the
+          department website.
+        </p>
+        <p><i>Existing table structure</i></p>
+        <p><b>Properties</b></p>
+        <p>Street</p>
+        <p>Postcode</p>
+        <p>Type</p>
+        <p>Bedrooms</p>
+        <p>Owner name</p>
+        <p>Owner address</p>
+        <p>Owner telephone</p>
+        <p>Price</p>
+        <p>Client name</p>
+        <p>Client Date of Birth</p>
+        <p>Client telephone</p>
+        <p>Rental start date</p>
+        <p>Duration</p>
+        <p>Pets allowed</p>
+        <p>Deposit amount</p>
+        <p>Deposit paid</p>
+        <br />
+        <p><b>Maintenance</b></p>
+        <p>Street</p>
+        <p>Postcode</p>
+        <p>Owner name</p>
+        <p>Owner telephone</p>
+        <p>Tenant name</p>
+        <p>Tenant telephone</p>
+        <p>Issue</p>
+        <p>Contractor name</p>
+        <p>Contractor telephone</p>
+        <p>Estimated cost</p>
+        <p>Resolved</p>
+        <h3>Database Normalisation</h3>
+        <a
+          target="_blank"
+          href="https://docs.google.com/document/d/1Qa_j7Sm1L3UOGSkCvYKPchwtotCq-YdkgWe2AZubgqw/edit?usp=sharing"
+          >Normalisation</a
+        >
+        <h3>Feedback</h3>
+        <h4>Alice Villar</h4>
+        <p>Hi Anrich,</p>
+        <p>I think your diagram is great!! Thank you for sharing.</p>
+        <p>
+          My only observation is about having 2 tables for owners and clients.
+          Personally, I'd rather create a table for People than two tables for
+          owner and client. After all the goal is to organize data to prevent
+          redundancy.
+        </p>
+        <p>
+          Another observation I have is that when I first saw your diagram I
+          asked myself : "why didn't he create keys to his relationship tables
+          ("issueJunction" and "propertyJunction")?". Then, when I created my
+          own diagram I realized that for some reason it just doesn't show in
+          the automatic diagram. In my code, I defined a composite key to those
+          tables and created foreign keys. I think we did the same thing in the
+          code:
+        </p>
+        <code>
+          CREATE TABLE Property_Person ( Property_Id int not null, Person_Id int
+          not null, primary key (Property_Id,Person_Id), foreign key
+          (Property_Id) references Property (Property_Cod), foreign key
+          (Person_Id) references Person (Person_Cod) );
+        </code>
+        <p>Kind regards,</p>
+        <p>Alice</p>
+      </section>
+      <section id="artefacts">
+        <h2>Mid-Module Assignment: System Design</h2>
+        <h3>Assignment topic: System Design</h3>
+        <p>
+          You have been asked to design a software system for a well-known
+          online store. The system will allow customers to search for products
+          sold at the website and add them to their shopping basket - at this
+          stage an order is in progress. Products are sold both by the website
+          itself and several third-party sellers as part of the website’s
+          marketplace. Third-party sellers can be individuals or organisations,
+          and once they have registered as a seller, they maintain their own
+          product catalogue, pricing and storefront. If a product is temporarily
+          out of stock, then then it will be marked as unavailable.
+        </p>
+        <p>
+          Once a customer has finished their shopping, the order is considered
+          to be processing and they are taken through the checkout process,
+          where they will specify delivery details. Customers have the choice of
+          several delivery options, including standard delivery using the postal
+          service and the company’s own in-house courier service. Products
+          ordered from third-party sellers at the marketplace do not have access
+          to the in-house courier system. When the delivery options have been
+          chosen, then the customer is presented with the payment options, where
+          they can opt to use a credit or debit card, an online payment service
+          (e.g., PayPal) or a gift voucher. Additionally, customers may also use
+          promotional codes that are periodically issued by the website.
+          Customers have the option to store their payment details and so can
+          simply use stored details for each purchase. At this stage, the order
+          is pending payment, but once the customer submits their payment
+          information, the validity of the account used (whether it is PayPal, a
+          credit/debit card or gift voucher) will be verified by the appropriate
+          service. Upon successful completion, the order is awaiting picking.
+        </p>
+        <p>
+          When a customer completes a transaction, the order is passed to the
+          warehouse staff. The warehouse staff will be required to look up the
+          items on the stock database to determine the location of the item in
+          the warehouse. Once the items are successfully collected and packaged,
+          the order will be considered ready for delivery and distributed to the
+          appropriate delivery company, depending on the customer’s preferences.
+          When a member of the warehouse staff picks an item, to fulfil a
+          customer order, the item is scanned with a handheld terminal to
+          automatically update the stock levels (which will be reflected on the
+          website). Finally, the order is collected by the appropriate delivery
+          company and marked as shipped.
+        </p>
+        <p>Using the scenario provided, you should design and develop:</p>
+        <ul>
+          <li>A class diagram.</li>
+          <li>
+            An activity diagram for the process of a customer completing an
+            order.
+          </li>
+          <li>
+            A state diagram highlighting the states of an order (and their
+            transitions) for your proposed system.
+          </li>
+        </ul>
+        <h3>Submission</h3>
+        <a
+          target="_blank"
+          href="https://docs.google.com/document/d/19gSpYkZd5lRD8cfrzGYJI574NumAPF8cqGKPDvVvRDo/edit?usp=sharing"
+          >Mid Module Assignment: System Design</a
+        >
+        <h3>Feedback</h3>
+        <h4>Beran Necat</h4>
+        <p>
+          Thank you for your mid-module assignment submission which I have
+          enjoyed reading.
+        </p>
+        <p>
+          For this assignment you needed to use the scenario provided to design
+          and develop a class diagram, an activity diagram for the process of a
+          customer completing an order and a state diagram highlighting the
+          states of an order (and their transitions) for your proposed system.
+        </p>
+        <p>
+          You needed to draw out the objects, attributes, operations and
+          relationships of the system in a rationale for your analysis (500
+          words). Please see below some general feedback which I hope you find
+          useful.&nbsp;&nbsp;
+        </p>
+        <p>
+          <span style="text-decoration: underline"
+            >Knowledge and understanding of the topic/ issues under
+            consideration (25%)</span
+          >
+        </p>
+        <p>
+          Overall, you have demonstrated a very good level of understanding of
+          the key elements required in the various diagrams. Your knowledge is
+          evident in your rationale, which provides a good breakdown of the
+          development of the diagrams and the classes are explained well. You
+          have shown solid insight in to the topics covered in the module so far
+          including the various relationships in your design.
+        </p>
+        <p>
+          <span style="text-decoration: underline"
+            >Application of knowledge and understanding (25%)</span
+          >
+        </p>
+        <p class="body-text">
+          You have clearly demonstrated your knowledge and understanding in the
+          application of the various diagrams, using some suitable techniques to
+          address the learning outcomes assessed by this assignment. &nbsp;The
+          class diagram has been correctly constructed with many classes defined
+          and correct relationships between them specified. Some classes could
+          be more specific, for example you have declared orderstatus as
+          enumeration which can also cover payment status/options such as
+          unpaid, pending etc. In the activity diagram the workflows of the
+          diagram represents behavioural logic and has been carefully designed
+          to cater for the requirements of the scenario.
+        </p>
+        <p>
+          Your state diagram covers the essential behaviours and specifies the
+          sequence of events for the order and series of transactions. Solid
+          level of detail.
+        </p>
+        <p>
+          <span style="text-decoration: underline">Criticality (25%)</span>
+        </p>
+        <p>
+          There is a solid demonstration of critical analysis in the
+          presentation of your ideas, with regards to linking theory and
+          practice in each of the diagrams. Your rationale provides informative
+          discussion of your diagrams for this scenario.
+        </p>
+        <p>
+          <span style="text-decoration: underline"
+            >Structure and Presentation (25%) (as detailed in the assessment
+            guidance)</span
+          >
+        </p>
+        <p>
+          Overall, this is a very good structure and presentation that has
+          generally met the requirements of the assignment.&nbsp; Diagrams are
+          suitably labelled and presented. You have used sub-headings to provide
+          a more organised layout. You have listed a range of references, but
+          these should have been linked in to the main body with in-text
+          citations. The length of your rationale is within the word limit.
+        </p>
+        <h4>Final Grade</h4>
+        <p>65 % (Merit)</p>
+      </section>
+      <section id="artefacts">
+        <h2>Collaborative Discussion 2: Alternatives to SQL</h2>
+        <h3>Discussion Topic</h3>
+        <p>
+          Thanks to the advent of Big Data and our increasing demand for more
+          data, there is a recent trend towards newer NoSQL technologies. As
+          part of this week’s activity, identify a NoSQL technology to research.
+          Then post in the discussion forum detailing the key approaches of your
+          chosen technology and how its relative merits when compared with a
+          traditional relational database.
+        </p>
+        <h3>Submission</h3>
+        <a
+          target="_blank"
+          href="https://docs.google.com/document/d/1RNybGbXJVuLzJma-1QhU3Hct0KIjVs6i4abmWNYfbbs/edit?usp=sharing"
+          >Discussion forum submission</a
+        >
+      </section>
+      <section id="artefacts">
+        <h2>System Implementation</h2>
+        <p>
+          Your solution should take your initial class diagram designs and
+          implement them using object-oriented Python. Remember to make use of
+          the appropriate techniques that have been covered, including
+          inheritance, composition and polymorphism. However, it is essential to
+          implement what you have designed, rather than adding features and
+          functionality unnecessarily.
+        </p>
+        <p>
+          Please write and test your scripts in Codio using the Python workspace
+          created for you (System Implementation Project: Python Development).
+          All code scripts must be documented and explained following best
+          practices. This helps to ensures that you carry out a critical
+          evaluation of your program.
+        </p>
+        <h3>Submission</h3>
+        <a target="_blank" href="https://github.com/anrichp/onlineStore"
+          >https://github.com/anrichp/onlineStore</a
+        >
+      </section>
+      <section id="artefacts">
+        <h2>
+          Blog Post: Emerging Trends in Information Systems Blog Post: Emerging
+          Trends in Information Systems
+        </h2>
+        <p>Create a blog post.</p>
+        <p>Instructions to students:</p>
+        <ul>
+          <li>
+            Identify a specific area of research and development in information
+            systems.
+          </li>
+          <li>
+            Your post could consider the emerging technology and its
+            implications.
+          </li>
+          <li>Review the references and reading provided.</li>
+        </ul>
+        <p>
+          You should demonstrate that you understand the topic covered and
+          ensure you use references to academic literature (journals, books,
+          reports, etc.). This is activity will provide an evidence of your
+          personal growth and is another component of your e-portfolio for this
+          module. (no word limit)
+        </p>
+        <h3>Submission</h3>
+        <a
+          target="_blank"
+          href="https://docs.google.com/document/d/1AJVSPnNsDHRnUZsk9KBS3xA5-WHqdW26yLSFPQncnU0/edit?usp=sharing"
+          >Blog Post: Emerging Trends in Information Systems</a
+        >
+      </section>
+    </main>
+  </body>
+</html>
