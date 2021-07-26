@@ -92,7 +92,7 @@ section {
 #reflections {
   margin-top: 2em;
   padding-bottom: 2em;
-  width: 200px;
+  min-width: 500px;
 }
 #meetingNotes {
   margin-top: 2em;
